@@ -23,7 +23,7 @@ public class Practical14 {
     public static void main(String[] args) {
 
        
-        System.out.println("Maulie Jain 240390107024");
+        System.out.println("kuldip ahir 240390107018");
 
         Scanner sc = new Scanner(System.in);
 
@@ -32,19 +32,19 @@ public class Practical14 {
 
         // Adding account details
         accounts[0] = new BankAccount();
-        accounts[0].assignValues("101", "maulie", 50000);
+        accounts[0].assignValues("101", "kuldip", 50000);
 
         accounts[1] = new BankAccount();
-        accounts[1].assignValues("102", "yachika", 8500);
+        accounts[1].assignValues("102", "shad", 8500);
 
         accounts[2] = new BankAccount();
-        accounts[2].assignValues("103", "khushi", 12000);
+        accounts[2].assignValues("103", "mitul", 12000);
 
         accounts[3] = new BankAccount();
-        accounts[3].assignValues("104", "preya", 7600);
+        accounts[3].assignValues("104", "ahir", 7600);
 
         accounts[4] = new BankAccount();
-        accounts[4].assignValues("A105", "riya", 9400);
+        accounts[4].assignValues("A105", "malek", 9400);
 
         // Displaying all accounts
         System.out.println("All Bank Accounts:");
@@ -73,4 +73,5 @@ public class Practical14 {
 
         sc.close();
     }
+
 }
